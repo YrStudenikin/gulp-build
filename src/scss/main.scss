@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../img/tiger.jpg") no-repeat;
+
+    .title {
+        color: gray;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        font-size: 16px;
+        background-color: aqua;
+    }
+}
+
+@import "block/*.scss";
