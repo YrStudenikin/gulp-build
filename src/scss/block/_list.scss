@@ -9,6 +9,10 @@
     }
 }
 
+.last {
+    border: 1px solid cyan;
+}
+
 @media (max-width: 700px) {
     .list {
         display: block;

@@ -1,7 +1,7 @@
 const pathSrc = "./src";
 const pathBuild = "./build";
 
-module.exports = {
+export default {
     root: pathBuild,
 
     html: {
